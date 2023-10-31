@@ -3,7 +3,7 @@ import { Configuration } from 'webpack';
 import { getCSSModuleLocalIdent } from '@nx/webpack';
 
 export function buildBaseWebpackConfig({
-  tsConfigPath = 'tsconfig.cy.json',
+  tsConfigPath = 'tsconfig.json',
   compiler = 'babel',
 }: {
   tsConfigPath: string;
